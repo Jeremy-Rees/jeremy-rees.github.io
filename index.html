@@ -1,14 +1,29 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeremy Rees Resume</title>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        object {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <iframe
-        src="Jeremy Rees Resume.pdf"
-        width="100%"
-        height="100%"
-        style="position:absolute; top:0; left:0; border:0;">
-    </iframe>
+    <object data="Jeremy Rees Resume.pdf" type="application/pdf">
+        <p>
+            <a href="Jeremy Rees Resume.pdf">View my resume</a>
+        </p>
+    </object>
 </body>
 </html>
+```
